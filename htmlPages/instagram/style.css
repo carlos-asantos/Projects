@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.lora-fonte {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+    display: flex;
+}
+
+body {
+    font-family: 'Lora',serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.postTop {
+    background-color: red;
+    flex-direction: row;
+    
+}
+
+.profilePicture {
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}
