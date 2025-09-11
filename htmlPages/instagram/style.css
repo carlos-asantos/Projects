@@ -21,7 +21,13 @@ body {
 .postTop {
     background-color: red;
     flex-direction: row;
-    
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.profileAndUsername {
+    justify-content: space-between;
 }
 
 .profilePicture {
