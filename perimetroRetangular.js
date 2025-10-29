@@ -1,4 +1,4 @@
-// Código básico para calcular o perímetro de uma sala
+// Código básico para calcular o perímetro de uma sala retangular
 const medidas = [];
 let largura = prompt("Qual a largura da sala?");
 let comprimento = prompt("Qual o comprimento da sala?");
