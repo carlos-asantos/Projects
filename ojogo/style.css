@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0e1b2b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #1e2f45;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 400px;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+button {
+  background: #1875E8;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0d4fa2;
+}
