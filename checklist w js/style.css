@@ -65,12 +65,15 @@ h2 {
     margin: 20px;
     height: 40px;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 25px;
 }
 
 textarea {
     width: 90%;
     margin: 10px 0px 10px 10px;
-
+    border-radius: 25px;
 }
 
 button {
@@ -80,4 +83,5 @@ button {
     border-style: groove;
     border-color: rgb(173, 170, 170);
     margin-right: 10px;
+    border-radius: 25px;
 }
