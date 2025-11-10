@@ -58,9 +58,9 @@ h2 {
 }
 
 .task {
+    background-color: #EDEDE9;
     display: flex;
     flex-direction: row;
-    background-color: #32CD32;
     width: 95%;
     margin: 20px;
     height: 40px;
@@ -68,6 +68,10 @@ h2 {
     justify-content: space-between;
     padding: 0 10px;
     border-radius: 25px;
+}
+
+.taskFoiFeita {
+    opacity: 30%;
 }
 
 textarea {
