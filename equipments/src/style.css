@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+#abaLateral {
+    background-color: blue;
+    width: 300px;
+    height: 100vh;
+}
+
+#parteSuperior {
+    background-color: pink;
+    height: 150px;
+}
+
+#parteCentral {
+    background-color: red;
+}
+
+.divsSuperiorECentral {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+}
