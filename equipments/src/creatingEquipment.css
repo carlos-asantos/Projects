@@ -125,6 +125,7 @@ body {
     width: 100%;
     gap: 22px;
     flex-direction: column;
+    overflow-y: auto; /* allow content to scroll when many items are added */
 }
 
 .arrowDown {
@@ -158,23 +159,40 @@ body {
         padding: 0 10px;
     }
 }
-
-.dataSection {
+.section {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: pink;
+    height: auto;
+    border-bottom: solid 1px #FFFFFF45;
+}
+
+.equipments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* allow items to wrap to new rows */
+    width: 100%;
+    align-items: flex-start;
+    padding: 10px 0;
 }
 .sectionName {
     font-size: 26px;
+    color: #FFFFFF;
+    opacity: 40%;
 }
 .insertItemGroup {
     display: flex;
     flex-direction: column;
-    img {
-        height: 20px;
-        width: 20px;
-    }
+    font-size: 18px;
+    padding: 5px;
+    color: #FFFFFF;
+    opacity: 60%;
+    /*flex: 0 0 263px;  keep a consistent item width so they line up in rows */
+}
+/* non-nested rule for the image inside each item group */
+.insertItemGroup img {
+    height: 20px;
+    width: 20px;
 }
 .insertItemField {
     display: flex;
@@ -184,6 +202,7 @@ body {
     align-items: center;
     padding-left: 10px;
     gap: 10px;
+    margin-top: 5px;
     border-radius: 10px;
     color: #FFFFFF;
     img {
