@@ -187,7 +187,7 @@ body {
     padding: 5px;
     color: #FFFFFF;
     opacity: 60%;
-    /*flex: 0 0 263px;  keep a consistent item width so they line up in rows */
+    flex: 0 0 1;  /*0 0 263px keep a consistent item width so they line up in rows */
 }
 /* non-nested rule for the image inside each item group */
 .insertItemGroup img {
@@ -196,7 +196,7 @@ body {
 }
 .insertItemField {
     display: flex;
-    width: 263px;
+    /*width: 263px; */
     height: 50px;
     background-color: #232129;
     align-items: center;
