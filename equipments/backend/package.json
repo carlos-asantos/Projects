@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend equipments mercurio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "sistema",
+    "mercurio",
+    "salvage"
+  ],
+  "author": "Carlos Alexandre",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-mariadb": "^7.2.0",
+    "@prisma/client": "^7.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "prisma": "^7.2.0"
+  }
+}
